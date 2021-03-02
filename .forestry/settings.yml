@@ -5,21 +5,24 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/posts
-  label: Posts/en
-  create: documents
-  match: "**/*.md"
-  exclude: "**/*.fr.md"
+  path: content/english/posts
+  label: posts/en
+  create: all
+  match: "**/*"
+  templates:
+  - post
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
 - type: directory
-  path: content/posts
-  label: Posts/fr
+  path: content/french/posts
+  label: posts/fr
   create: all
-  match: "**/*.fr.md"
+  match: "**/*"
+  templates:
+  - post
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
