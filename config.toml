@@ -9,11 +9,13 @@ defaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
     title = "my new hugo il8n site"
-    langaugeName = "English"
+    languageName = "English"
+    contentDir = "content/english"
     weight = 2
   [languages.fr]
     title = "Ma nouveau site hugo internationalisée"
-    langugeName = "French"
+    languageName = "French"
+    contentDir = "content/French"
     weight = 1
     
     
