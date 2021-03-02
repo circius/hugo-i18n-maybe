@@ -15,7 +15,7 @@ defaultContentLanguageInSubdir = true
   [languages.fr]
     title = "Ma nouveau site hugo internationalisée"
     languageName = "French"
-    contentDir = "content/French"
+    contentDir = "content/french"
     weight = 1
     
     
