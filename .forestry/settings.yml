@@ -8,7 +8,8 @@ sections:
   path: content/posts
   label: Posts/en
   create: documents
-  match: "**/*.en.md"
+  match: "**/*.md"
+  exclude: "**/*.fr.md"
 - type: directory
   path: content
   label: Pages
