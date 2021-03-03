@@ -1,23 +1,22 @@
 ---
 title: Aether Features
 date: 2018-12-19T10:35:35.000-05:00
-description: " Hugo combiné au thème de l'éther transforme une note facile à écrire
+description:
+  " Hugo combiné au thème de l'éther transforme une note facile à écrire
   en de puissantes pages web. KaTeX, Highlight.js et Hugo permettent de créer des
   symoboles mathématiques, des équations, du code en surbrillance, des tableaux, des
   listes et bien plus encore."
 categories:
-- KaTeX
-- Features
+  - KaTeX
+  - Features
 dropCap: true
 displayInMenu: false
 displayInList: true
 resources:
-- {}
-- {}
-- name: featuredImage
-  src: mdd-iphone.jpg
-
+  - name: featuredImage
+    src: mdd-iphone.jpg
 ---
+
 Hugo combiné au thème de l'éther transforme une note facile à écrire en de puissantes pages web. KaTeX, Highlight.js et Hugo permettent de créer des symoboles mathématiques, des équations, du code en surbrillance, des tableaux, des listes et bien plus encore.
 
 Pour chaque fonctionnalité ci-dessous, la première ligne est la démarque et la deuxième ligne est le résultat après que Hugo, KaTeX et Highlight.js aient traité la démarque. Vous pouvez trouver de nombreuses autres fonctionnalités dans la documentation Hugo.
