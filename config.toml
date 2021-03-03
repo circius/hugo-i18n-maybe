@@ -17,5 +17,3 @@ defaultContentLanguageInSubdir = true
     languageName = "French"
     contentDir = "content/french"
     weight = 1
-    
-    
