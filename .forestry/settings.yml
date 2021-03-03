@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: fr.toml
+  label: fr / strings
+  match: "**/*"
+- type: document
+  path: en.toml
+  label: en/strings
+  match: "**/*"
 - type: directory
   path: content/english/posts
   label: posts/en
